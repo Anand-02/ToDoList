@@ -1,0 +1,57 @@
+#todo{
+    width: 1000px;
+    border: 1px hidden yellowgreen;
+    border-radius: 7px;
+    font-size: 22px;
+}
+
+#addTodo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: 50px;
+}
+
+#button{
+    margin-left: 20px;
+    width: 100px;
+    border: 3px hidden blueviolet;
+    background-color: goldenrod;
+    border-radius: 7px;
+    font-size: 22px;
+}
+
+#button:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+    border: 1px solid black;
+    /* border-style: double; */
+    box-shadow: 3px 3px 5px -1px aquamarine;
+}
+
+body{
+    background-color: black;
+}
+
+.todos{
+    background-color: rgb(182, 167, 167);
+    border: 3px dotted whitesmoke;
+    border-radius: 13px;
+    margin: 70px 200px;
+    height: 750px;
+    font-size: 20px;
+}
+
+.header{
+    font-size: 70px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+.newDiv{
+    font-size: 35px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
